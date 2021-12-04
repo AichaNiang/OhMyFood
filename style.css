@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2? family= Shrikhand & display=swap');
+@import url('https://fonts.googleapis.com/css2? famille= Roboto:wght@400;500 &family= Shrikhand & display=swap');
+*,
+::before,
+::after{
+ box-sizing: border-box;  
+}
+body
+{
+    margin: 0px;
+}
+header 
+{
+    font-family : 'Shrikhand', cursif ;
+    font-family : 'Roboto', sans-serif ;
+    text-align: center;
+    box-shadow: 0px 3px 3px 1px grey;
+   padding: 0.3rem;
+}
