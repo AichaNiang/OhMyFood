@@ -1,0 +1,22 @@
+{
+  "name": "ohmyfood",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AichaNiang/OhMyFood.git"
+  },
+  "author": "Aicha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AichaNiang/OhMyFood/issues"
+  },
+  "homepage": "https://github.com/AichaNiang/OhMyFood#readme",
+  "devDependencies": {
+    "sass": "^1.45.0"
+  }
+}
