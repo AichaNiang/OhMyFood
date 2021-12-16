@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2? family= Shrikhand & display=swap");
+@import url("https://fonts.googleapis.com/css2? famille= Roboto:wght@400;500 &family= Shrikhand & display=swap");
+*,
+::before,
+::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  font-family: "Roboto", sans-serif;
+}
+
+main {
+  padding: 0 1rem;
+}
+
+header {
+  font-family: "Shrikhand", cursif;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  -webkit-box-shadow: 0px 3px 3px 1px grey;
+          box-shadow: 0px 3px 3px 1px grey;
+  padding: 0.3rem;
+  margin: 0;
+  position: relative;
+}
+
+.init {
+  background-color: #f3f3f3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 1rem;
+  padding: 0.5rem;
+}
+
+.init i {
+  font-size: 1.5rem;
+}
+
+.explorer {
+  text-align: center;
+}
+
+.explorer h2 {
+  margin-top: 2rem;
+  font-size: 2rem;
+}
+
+.explorer p {
+  font-size: 1rem;
+}
+
+.explorer button {
+  color: white;
+  font-weight: 100;
+  font-size: 1.5rem;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 2rem;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(147, 86, 220, 0.9)), to(rgba(255, 121, 218, 0.9)));
+  background-image: linear-gradient(to top, rgba(147, 86, 220, 0.9), rgba(255, 121, 218, 0.9));
+  -webkit-transition: -webkit-transform 200ms;
+  transition: -webkit-transform 200ms;
+  transition: transform 200ms;
+  transition: transform 200ms, -webkit-transform 200ms;
+  margin-top: 1rem;
+  -webkit-box-shadow: 2px 1px 16px -3px #000000;
+          box-shadow: 2px 1px 16px -3px #000000;
+}
+
+.explorer button:hover {
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
+  opacity: 0.9;
+}
+
+.tutto ol {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+@media (max-width: 800) {
+  .tutto ol {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.tutto li {
+  background: color #f6f6f6;
+  padding: 1rem 2rem;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  border-radius: 1rem;
+  -webkit-box-shadow: 2px 1px 16px -3px #000000;
+          box-shadow: 2px 1px 16px -3px #000000;
+}
+
+.tutto li:hover {
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
+}
+/*# sourceMappingURL=style.css.map */

@@ -11,6 +11,10 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+main {
+  padding: 0 1rem;
+}
+
 header {
   font-family: "Shrikhand", cursif;
   font-family: "Roboto", sans-serif;
@@ -21,7 +25,7 @@ header {
   position: relative;
 }
 
-main .init {
+.init {
   background-color: #f3f3f3;
   display: flex;
   align-items: center;
@@ -30,24 +34,20 @@ main .init {
   gap: 1rem;
   padding: 0.5rem;
 }
-
-main .init i {
+.init i {
   font-size: 1.5rem;
 }
 
 .explorer {
   text-align: center;
 }
-
 .explorer h2 {
   margin-top: 2rem;
   font-size: 2rem;
 }
-
 .explorer p {
   font-size: 1rem;
 }
-
 .explorer button {
   color: white;
   font-weight: 100;
@@ -55,15 +55,34 @@ main .init i {
   padding: 1rem 2rem;
   border: none;
   border-radius: 2rem;
-  box-shadow: 2px 1px 16px -3px #000000;
   background-image: linear-gradient(to top, rgba(147, 86, 220, 0.9), rgba(255, 121, 218, 0.9));
   transition: transform 200ms;
   margin-top: 1rem;
+  box-shadow: 2px 1px 16px -3px #000000;
 }
-
 .explorer button:hover {
   transform: scale(1.02);
   opacity: 0.9;
+}
+
+.tutto ol {
+  display: flex;
+  flex-wrap: wrap;
+}
+@media (max-width: 800) {
+  .tutto ol {
+    flex-direction: column;
+  }
+}
+.tutto li {
+  background: color #f6f6f6;
+  padding: 1rem 2rem;
+  flex-grow: 1;
+  border-radius: 1rem;
+  box-shadow: 2px 1px 16px -3px #000000;
+}
+.tutto li:hover {
+  transform: scale(1.02);
 }
 
 /*# sourceMappingURL=style.css.map */
