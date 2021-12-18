@@ -65,24 +65,45 @@ header {
   opacity: 0.9;
 }
 
+.tutto {
+  counter-reset: steps;
+}
 .tutto ol {
   display: flex;
-  flex-wrap: wrap;
 }
-@media (max-width: 800) {
+@media (max-width: 1000px) {
   .tutto ol {
     flex-direction: column;
   }
 }
 .tutto li {
+  position: relative;
+  list-style-type: none;
   background: color #f6f6f6;
-  padding: 1rem 2rem;
+  padding: 1.5rem 2rem;
+  border: 1px solid;
   flex-grow: 1;
   border-radius: 1rem;
   box-shadow: 2px 1px 16px -3px #000000;
 }
+.tutto li::before {
+  content: counter(steps);
+  counter-increment: steps;
+  height: 2rem;
+  width: 2rem;
+  background-color: darkviolet;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 1rem;
+  left: -0.5rem;
+}
 .tutto li:hover {
   transform: scale(1.02);
+}
+.tutto li i.fas {
+  margin-right: 1rem;
 }
 
 /*# sourceMappingURL=style.css.map */
