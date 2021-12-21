@@ -12,7 +12,7 @@ body {
 }
 
 main {
-  padding: 0 1rem;
+  padding: 0 7rem;
 }
 
 header {
@@ -67,6 +67,7 @@ header {
 
 .tutto {
   counter-reset: steps;
+  margin-bottom: 2rem;
 }
 .tutto ol {
   display: flex;
@@ -96,14 +97,51 @@ header {
   place-items: center;
   border-radius: 50%;
   position: absolute;
-  bottom: 1rem;
+  top: 50%;
   left: -0.5rem;
+  transform: translateY(-50%);
 }
 .tutto li:hover {
   transform: scale(1.02);
 }
 .tutto li i.fas {
   margin-right: 1rem;
+}
+
+.menus {
+  background-color: #f6f6f6;
+}
+.menus h2 {
+  margin-bottom: 2rem;
+}
+.menus .menus__cards {
+  display: grid;
+  grid-template-columns: repeat(2fr);
+  gap: 2rem;
+}
+.menus .card {
+  border: 1px solid black;
+}
+.menus .card .card_image {
+  background-image: url(../../images/men-1.jpg);
+  height: 15rem;
+}
+
+footer {
+  background-color: gray;
+}
+
+.init {
+  background-color: #f3f3f3;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  gap: 1rem;
+  padding: 0.5rem;
+}
+.init i {
+  font-size: 1.5rem;
 }
 
 /*# sourceMappingURL=style.css.map */

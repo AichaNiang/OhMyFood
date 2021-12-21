@@ -1,0 +1,25 @@
+.menus {
+  background-color: #f6f6f6;
+}
+
+.menus h2 {
+  margin-bottom: 2rem;
+}
+
+.menus .menus__cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.menus .card {
+  border: 1px solid black;
+}
+
+.menus .card.card_image {
+  background-image: url(../../images/menu-2.jpg);
+}
+/*# sourceMappingURL=menus.css.map */

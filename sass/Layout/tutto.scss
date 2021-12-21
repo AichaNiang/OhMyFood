@@ -5,6 +5,7 @@
 
 .tutto {
 counter-reset: steps;
+margin-bottom: 2rem;
  & ol {
 display: flex;
 @media (max-width : 1000px) {
@@ -23,8 +24,9 @@ display: grid;
 place-items: center;
 border-radius: 50%;
 position: absolute;
-bottom: variables.$base-height;
+top: 50%;
 left: variables.$base-height*-0.5;
+transform: translateY(-50%);
 }
 list-style-type: none;
 background: color #f6f6f6;

@@ -1,0 +1,21 @@
+.menus {
+    background-color: #f6f6f6;
+
+    h2 {
+        margin-bottom: 2rem;
+    }
+    .menus__cards {
+        display: grid;
+      grid-template-columns: repeat(2*1fr);
+        gap: 2rem;
+        
+    }
+    .card {
+        border: 1px solid black;
+        & .card_image
+         {
+background-image: url(../../images/men-1.jpg);
+height: 15rem;
+        }
+    }
+}
