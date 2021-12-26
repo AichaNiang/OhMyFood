@@ -1,8 +1,6 @@
 @use "../Utils/box-shadow";
 @use "../Utils/zoom";
 @use "../Utils/variables";
-
-
 .tutto {
 counter-reset: steps;
 margin-bottom: 2rem;
@@ -15,7 +13,7 @@ flex-direction: column;
  & li {
 position: relative;
 &::before {
-content: counter(steps) ;
+content: counter(steps);
 counter-increment: steps;
 height: variables.$base-height*2;
 width: variables.$base-height*2;
