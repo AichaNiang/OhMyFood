@@ -1,5 +1,4 @@
-@use "../Utils/box-shadow"; 
-@use "../Utils/leargradiant";
+@use "../Utils/mixing"; 
 .explorer {
     text-align: center;
   & h2 {
@@ -22,8 +21,8 @@
     //background-image: linear-gradient(to top, rgba(147, 86, 220, 0.9), rgba(255, 121, 218, 0.9));
     transition: transform 200ms;
     margin-top: 1rem;
-    @include box-shadow.base-shadow;
-    @include leargradiant.lineargradiant;
+    @include mixing.base-shadow;
+    @include mixing.lineargradiant;
   }
   
   & button:hover {

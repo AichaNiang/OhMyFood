@@ -1,5 +1,4 @@
-@use "../Utils/box-shadow";
-@use "../Utils/zoom";
+@use "../Utils/mixing";
 @use "../Utils/variables";
 .tutto {
 counter-reset: steps;
@@ -32,9 +31,9 @@ padding: 1.5rem 2rem;
 border: 1px solid;
 flex-grow: 1;
 border-radius: 1rem;
-@include box-shadow.base-shadow;
+@include mixing.base-shadow;
 &:hover {
-@include zoom.transform-zoom;
+@include mixing.transform-zoom;
 }
 & i.fas{
 margin-right: 1rem;

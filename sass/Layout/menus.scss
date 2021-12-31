@@ -1,4 +1,4 @@
-@use "../Utils/leargradiant";
+@use "../Utils/mixing";
 .menus {
     background-color: #f6f6f6;
     margin-bottom: 2rem;
@@ -75,7 +75,7 @@ background-clip: text;
 -webkit-background-clip: text;
 opacity: 0;
 transition: all 200ms ease-in-out;
-@include leargradiant.lineargradiant(1);
+@include mixing.lineargradiant(1);
 }  
 & :hover .fas
 { 
