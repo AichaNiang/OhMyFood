@@ -49,7 +49,7 @@ border-radius: 1rem 1rem 0 0;
     &::before
     {
 @include mixing.heart;
-//@include mixing.lineargradiant(1);
+@include mixing.lineargradiant(1);
 } 
 &::after
 {

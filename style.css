@@ -191,6 +191,7 @@ header {
   -webkit-background-clip: text;
   opacity: 1;
   transition: all 200ms ease-in-out;
+  background-image: linear-gradient(to top, #9356dc, #ff79da);
 }
 .menus .card_description::after {
   display: inline-block;
